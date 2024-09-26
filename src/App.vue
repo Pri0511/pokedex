@@ -433,4 +433,23 @@ h1.not-found{
   border: 1px solid #dfd9d9;
   background-color: rgba(224, 217, 217, 0.363);
 }
+
+
+
+@media (max-width: 900px) {
+.contenedor {
+  position: relative;
+  width: 350px;
+  height: 300px;
+  margin-top: -200px;
+  margin-bottom: -18px;
+  margin-left: -50px;
+  display: grid;
+  grid-template-rows: 4fr, 1fr;
+
+
+
+}
+
+}
 </style>
