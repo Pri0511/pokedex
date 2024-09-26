@@ -208,6 +208,7 @@ body {
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
+  
 }
 
 .contenedor {
@@ -447,8 +448,18 @@ h1.not-found{
   display: grid;
   grid-template-rows: 4fr, 1fr;
 
+}
 
-
+body {
+  height: 100%;  
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: none;  
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 }
